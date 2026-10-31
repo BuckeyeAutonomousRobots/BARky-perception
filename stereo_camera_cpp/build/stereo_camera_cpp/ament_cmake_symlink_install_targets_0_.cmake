@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/stereo_camera_node" "TARGETS" "stereo_camera_node" "DESTINATION" "lib/stereo_camera_cpp")

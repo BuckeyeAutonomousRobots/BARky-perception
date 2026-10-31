@@ -1,0 +1,10 @@
+[0.022s] Invoking command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp -- -j6 -l6
+[0.121s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o[0m
+[0.592s] [01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Ksensor_msgs/image_encoding.h: No such file or directory
+[0.592s]     3 | #include [01;31m[K<sensor_msgs/image_encoding.h>[m[K
+[0.593s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.593s] compilation terminated.
+[0.628s] gmake[2]: *** [CMakeFiles/yolo_detector_node.dir/build.make:76: CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o] Error 1
+[0.629s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yolo_detector_node.dir/all] Error 2
+[0.629s] gmake: *** [Makefile:146: all] Error 2
+[0.635s] Invoked command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp -- -j6 -l6

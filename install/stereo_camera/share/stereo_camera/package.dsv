@@ -1,0 +1,6 @@
+source;share/stereo_camera/hook/pythonpath.ps1
+source;share/stereo_camera/hook/pythonpath.dsv
+source;share/stereo_camera/hook/pythonpath.sh
+source;share/stereo_camera/hook/ament_prefix_path.ps1
+source;share/stereo_camera/hook/ament_prefix_path.dsv
+source;share/stereo_camera/hook/ament_prefix_path.sh

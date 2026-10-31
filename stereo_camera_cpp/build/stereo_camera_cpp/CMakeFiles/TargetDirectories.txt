@@ -1,0 +1,10 @@
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/uninstall.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/stereo_camera_cpp_uninstall.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/stereo_camera_node.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/test.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/edit_cache.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/rebuild_cache.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/list_install_components.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/install.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/install/local.dir
+/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp/CMakeFiles/install/strip.dir

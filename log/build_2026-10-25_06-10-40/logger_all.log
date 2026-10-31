@@ -1,0 +1,146 @@
+[0.242s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'yolo_detector_cpp']
+[0.242s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['yolo_detector_cpp'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9cab5c30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9cab5720>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9cab5720>>)
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.580s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.581s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/isaiahm/ros2_ws/src'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.582s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'ignore'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'ignore_ament_install'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extensions ['colcon_pkg']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'colcon_pkg'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extensions ['colcon_meta']
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'colcon_meta'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'ros'
+[0.620s] DEBUG:colcon.colcon_core.package_identification:Package 'stereo_camera' with type 'ros.ament_python' and name 'stereo_camera'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extension 'colcon_meta'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extensions ['ros']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera_cpp) by extension 'ros'
+[0.624s] DEBUG:colcon.colcon_core.package_identification:Package 'stereo_camera_cpp' with type 'ros.ament_cmake' and name 'stereo_camera_cpp'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extensions ['ros']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(yolo_detector_cpp) by extension 'ros'
+[0.627s] DEBUG:colcon.colcon_core.package_identification:Package 'yolo_detector_cpp' with type 'ros.ament_cmake' and name 'yolo_detector_cpp'
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.627s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.675s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'stereo_camera' in 'stereo_camera'
+[0.675s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'stereo_camera_cpp' in 'stereo_camera_cpp'
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.676s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.680s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/isaiahm/ros2_ws/install
+[0.682s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 188 installed packages in /opt/ros/humble
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'cmake_args' from command line to 'None'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'cmake_target' from command line to 'None'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.779s] Level 5:colcon.colcon_core.verb:set package 'yolo_detector_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.779s] DEBUG:colcon.colcon_core.verb:Building package 'yolo_detector_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp', 'merge_install': False, 'path': '/home/isaiahm/ros2_ws/src/yolo_detector_cpp', 'symlink_install': True, 'test_result_base': None}
+[0.780s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.782s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.783s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/isaiahm/ros2_ws/src/yolo_detector_cpp' with build type 'ament_cmake'
+[0.783s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/isaiahm/ros2_ws/src/yolo_detector_cpp'
+[0.788s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.788s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.789s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.809s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp -- -j6 -l6
+[25.877s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp -- -j6 -l6
+[25.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --install /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp
+[26.215s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_detector_cpp)
+[26.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --install /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp
+[26.225s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp' for CMake module files
+[26.227s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp' for CMake config files
+[26.229s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_detector_cpp', 'cmake_prefix_path')
+[26.230s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/hook/cmake_prefix_path.ps1'
+[26.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/hook/cmake_prefix_path.dsv'
+[26.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/hook/cmake_prefix_path.sh'
+[26.269s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib'
+[26.270s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/bin'
+[26.270s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib/pkgconfig/yolo_detector_cpp.pc'
+[26.271s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib/python3.10/site-packages'
+[26.272s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/bin'
+[26.273s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.ps1'
+[26.278s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.dsv'
+[26.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.sh'
+[26.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.bash'
+[26.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.zsh'
+[26.289s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/colcon-core/packages/yolo_detector_cpp)
+[26.291s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yolo_detector_cpp)
+[26.292s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp' for CMake module files
+[26.294s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp' for CMake config files
+[26.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('yolo_detector_cpp', 'cmake_prefix_path')
+[26.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/hook/cmake_prefix_path.ps1'
+[26.298s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/hook/cmake_prefix_path.dsv'
+[26.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/hook/cmake_prefix_path.sh'
+[26.301s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib'
+[26.301s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/bin'
+[26.301s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib/pkgconfig/yolo_detector_cpp.pc'
+[26.302s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib/python3.10/site-packages'
+[26.304s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/bin'
+[26.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.ps1'
+[26.307s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.dsv'
+[26.309s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.sh'
+[26.311s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.bash'
+[26.312s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.zsh'
+[26.313s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/colcon-core/packages/yolo_detector_cpp)
+[26.314s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[26.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[26.316s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[26.316s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[26.317s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[26.318s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isaiahm/ros2_ws/src/install/local_setup.ps1'
+[26.322s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/isaiahm/ros2_ws/src/install/_local_setup_util_ps1.py'
+[26.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isaiahm/ros2_ws/src/install/setup.ps1'
+[26.332s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isaiahm/ros2_ws/src/install/local_setup.sh'
+[26.334s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/isaiahm/ros2_ws/src/install/_local_setup_util_sh.py'
+[26.336s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isaiahm/ros2_ws/src/install/setup.sh'
+[26.340s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isaiahm/ros2_ws/src/install/local_setup.bash'
+[26.342s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isaiahm/ros2_ws/src/install/setup.bash'
+[26.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isaiahm/ros2_ws/src/install/local_setup.zsh'
+[26.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isaiahm/ros2_ws/src/install/setup.zsh'

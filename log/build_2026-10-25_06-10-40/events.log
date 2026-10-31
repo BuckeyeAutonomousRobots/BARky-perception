@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.000748] (-) JobUnselected: {'identifier': 'stereo_camera'}
+[0.001321] (-) JobUnselected: {'identifier': 'stereo_camera_cpp'}
+[0.001636] (yolo_detector_cpp) JobQueued: {'identifier': 'yolo_detector_cpp', 'dependencies': OrderedDict()}
+[0.001918] (yolo_detector_cpp) JobStarted: {'identifier': 'yolo_detector_cpp'}
+[0.017923] (yolo_detector_cpp) JobProgress: {'identifier': 'yolo_detector_cpp', 'progress': 'cmake'}
+[0.019433] (yolo_detector_cpp) JobProgress: {'identifier': 'yolo_detector_cpp', 'progress': 'build'}
+[0.020936] (yolo_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp', '--', '-j6', '-l6'], 'cwd': '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'isaiahm'), ('SSH_CLIENT', '100.84.177.90 35424 22'), ('GIT_ASKPASS', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('BROWSER', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/helpers/browser.sh'), ('HOME', '/home/isaiahm'), ('OLDPWD', '/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src'), ('TERM_PROGRAM_VERSION', '1.135.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-394abe44-841c-4527-894e-9f9e11d1a79d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/isaiahm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-74e678a7233d8075.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/isaiahm/.vscode-server/data/User/workspaceStorage/306bd385dbea395ae1a60cc646b9dbb1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e2f3973494.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/isaiahm/ros2_ws/install/stereo_camera_cpp:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp'), ('SSH_CONNECTION', '100.84.177.90 35424 100.85.12.126 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/isaiahm/ros2_ws/install/stereo_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/isaiahm/ros2_ws/install/stereo_camera_cpp:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble')]), 'shell': False}
+[0.099282] (-) TimerEvent: {}
+[0.114390] (yolo_detector_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target yolo_detector_node\x1b[0m\n'}
+[0.158748] (yolo_detector_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o\x1b[0m\n'}
+[0.199460] (-) TimerEvent: {}
+[0.300195] (-) TimerEvent: {}
+[0.400714] (-) TimerEvent: {}
+[0.501272] (-) TimerEvent: {}
+[0.601965] (-) TimerEvent: {}
+[0.702492] (-) TimerEvent: {}
+[0.803048] (-) TimerEvent: {}
+[0.903840] (-) TimerEvent: {}
+[1.004591] (-) TimerEvent: {}
+[1.105425] (-) TimerEvent: {}
+[1.206254] (-) TimerEvent: {}
+[1.307116] (-) TimerEvent: {}
+[1.407922] (-) TimerEvent: {}
+[1.508670] (-) TimerEvent: {}
+[1.609436] (-) TimerEvent: {}
+[1.710224] (-) TimerEvent: {}
+[1.811037] (-) TimerEvent: {}
+[1.911857] (-) TimerEvent: {}
+[2.012912] (-) TimerEvent: {}
+[2.113699] (-) TimerEvent: {}
+[2.214466] (-) TimerEvent: {}
+[2.315281] (-) TimerEvent: {}
+[2.416294] (-) TimerEvent: {}
+[2.517191] (-) TimerEvent: {}
+[2.618117] (-) TimerEvent: {}
+[2.719042] (-) TimerEvent: {}
+[2.819730] (-) TimerEvent: {}
+[2.920440] (-) TimerEvent: {}
+[3.021404] (-) TimerEvent: {}
+[3.122493] (-) TimerEvent: {}
+[3.223247] (-) TimerEvent: {}
+[3.323999] (-) TimerEvent: {}
+[3.424722] (-) TimerEvent: {}
+[3.525406] (-) TimerEvent: {}
+[3.626183] (-) TimerEvent: {}
+[3.727182] (-) TimerEvent: {}
+[3.828136] (-) TimerEvent: {}
+[3.928840] (-) TimerEvent: {}
+[4.029529] (-) TimerEvent: {}
+[4.130250] (-) TimerEvent: {}
+[4.231011] (-) TimerEvent: {}
+[4.331779] (-) TimerEvent: {}
+[4.432537] (-) TimerEvent: {}
+[4.533299] (-) TimerEvent: {}
+[4.634080] (-) TimerEvent: {}
+[4.734850] (-) TimerEvent: {}
+[4.835674] (-) TimerEvent: {}
+[4.936532] (-) TimerEvent: {}
+[5.037263] (-) TimerEvent: {}
+[5.137977] (-) TimerEvent: {}
+[5.238778] (-) TimerEvent: {}
+[5.339525] (-) TimerEvent: {}
+[5.440274] (-) TimerEvent: {}
+[5.540994] (-) TimerEvent: {}
+[5.641742] (-) TimerEvent: {}
+[5.742502] (-) TimerEvent: {}
+[5.843308] (-) TimerEvent: {}
+[5.944107] (-) TimerEvent: {}
+[6.044822] (-) TimerEvent: {}
+[6.145525] (-) TimerEvent: {}
+[6.246262] (-) TimerEvent: {}
+[6.347073] (-) TimerEvent: {}
+[6.447935] (-) TimerEvent: {}
+[6.548743] (-) TimerEvent: {}
+[6.649553] (-) TimerEvent: {}
+[6.750344] (-) TimerEvent: {}
+[6.851124] (-) TimerEvent: {}
+[6.951894] (-) TimerEvent: {}
+[7.052625] (-) TimerEvent: {}
+[7.153385] (-) TimerEvent: {}
+[7.254220] (-) TimerEvent: {}
+[7.354985] (-) TimerEvent: {}
+[7.455810] (-) TimerEvent: {}
+[7.556606] (-) TimerEvent: {}
+[7.657408] (-) TimerEvent: {}
+[7.758240] (-) TimerEvent: {}
+[7.859303] (-) TimerEvent: {}
+[7.960177] (-) TimerEvent: {}
+[8.061008] (-) TimerEvent: {}
+[8.161789] (-) TimerEvent: {}
+[8.262535] (-) TimerEvent: {}
+[8.363270] (-) TimerEvent: {}
+[8.464056] (-) TimerEvent: {}
+[8.564802] (-) TimerEvent: {}
+[8.665546] (-) TimerEvent: {}
+[8.766308] (-) TimerEvent: {}
+[8.867161] (-) TimerEvent: {}
+[8.967895] (-) TimerEvent: {}
+[9.068631] (-) TimerEvent: {}
+[9.169384] (-) TimerEvent: {}
+[9.270120] (-) TimerEvent: {}
+[9.370852] (-) TimerEvent: {}
+[9.471573] (-) TimerEvent: {}
+[9.572274] (-) TimerEvent: {}
+[9.672899] (-) TimerEvent: {}
+[9.773594] (-) TimerEvent: {}
+[9.874365] (-) TimerEvent: {}
+[9.975066] (-) TimerEvent: {}
+[10.075757] (-) TimerEvent: {}
+[10.176407] (-) TimerEvent: {}
+[10.277058] (-) TimerEvent: {}
+[10.377776] (-) TimerEvent: {}
+[10.478482] (-) TimerEvent: {}
+[10.579104] (-) TimerEvent: {}
+[10.679762] (-) TimerEvent: {}
+[10.780759] (-) TimerEvent: {}
+[10.881561] (-) TimerEvent: {}
+[10.982270] (-) TimerEvent: {}
+[11.082939] (-) TimerEvent: {}
+[11.183591] (-) TimerEvent: {}
+[11.284263] (-) TimerEvent: {}
+[11.384876] (-) TimerEvent: {}
+[11.485527] (-) TimerEvent: {}
+[11.586205] (-) TimerEvent: {}
+[11.686896] (-) TimerEvent: {}
+[11.787600] (-) TimerEvent: {}
+[11.888313] (-) TimerEvent: {}
+[11.988987] (-) TimerEvent: {}
+[12.089666] (-) TimerEvent: {}
+[12.190344] (-) TimerEvent: {}
+[12.291036] (-) TimerEvent: {}
+[12.391747] (-) TimerEvent: {}
+[12.492445] (-) TimerEvent: {}
+[12.593156] (-) TimerEvent: {}
+[12.693865] (-) TimerEvent: {}
+[12.794590] (-) TimerEvent: {}
+[12.895307] (-) TimerEvent: {}
+[12.996056] (-) TimerEvent: {}
+[13.096780] (-) TimerEvent: {}
+[13.197489] (-) TimerEvent: {}
+[13.298183] (-) TimerEvent: {}
+[13.398940] (-) TimerEvent: {}
+[13.499759] (-) TimerEvent: {}
+[13.600497] (-) TimerEvent: {}
+[13.701209] (-) TimerEvent: {}
+[13.801943] (-) TimerEvent: {}
+[13.902651] (-) TimerEvent: {}
+[14.003325] (-) TimerEvent: {}
+[14.104028] (-) TimerEvent: {}
+[14.204677] (-) TimerEvent: {}
+[14.305297] (-) TimerEvent: {}
+[14.405919] (-) TimerEvent: {}
+[14.506549] (-) TimerEvent: {}
+[14.607196] (-) TimerEvent: {}
+[14.707924] (-) TimerEvent: {}
+[14.808764] (-) TimerEvent: {}
+[14.909595] (-) TimerEvent: {}
+[15.010385] (-) TimerEvent: {}
+[15.111122] (-) TimerEvent: {}
+[15.211860] (-) TimerEvent: {}
+[15.312582] (-) TimerEvent: {}
+[15.413251] (-) TimerEvent: {}
+[15.513960] (-) TimerEvent: {}
+[15.615041] (-) TimerEvent: {}
+[15.715891] (-) TimerEvent: {}
+[15.816725] (-) TimerEvent: {}
+[15.917571] (-) TimerEvent: {}
+[16.018389] (-) TimerEvent: {}
+[16.119178] (-) TimerEvent: {}
+[16.219974] (-) TimerEvent: {}
+[16.320761] (-) TimerEvent: {}
+[16.421567] (-) TimerEvent: {}
+[16.522369] (-) TimerEvent: {}
+[16.623297] (-) TimerEvent: {}
+[16.724102] (-) TimerEvent: {}
+[16.824850] (-) TimerEvent: {}
+[16.925601] (-) TimerEvent: {}
+[17.026352] (-) TimerEvent: {}
+[17.127075] (-) TimerEvent: {}
+[17.227855] (-) TimerEvent: {}
+[17.328608] (-) TimerEvent: {}
+[17.429378] (-) TimerEvent: {}
+[17.530144] (-) TimerEvent: {}
+[17.630897] (-) TimerEvent: {}
+[17.731604] (-) TimerEvent: {}
+[17.832320] (-) TimerEvent: {}
+[17.933054] (-) TimerEvent: {}
+[18.033769] (-) TimerEvent: {}
+[18.134476] (-) TimerEvent: {}
+[18.235197] (-) TimerEvent: {}
+[18.335922] (-) TimerEvent: {}
+[18.436840] (-) TimerEvent: {}
+[18.537603] (-) TimerEvent: {}
+[18.638339] (-) TimerEvent: {}
+[18.739094] (-) TimerEvent: {}
+[18.840091] (-) TimerEvent: {}
+[18.940807] (-) TimerEvent: {}
+[19.041457] (-) TimerEvent: {}
+[19.142173] (-) TimerEvent: {}
+[19.242850] (-) TimerEvent: {}
+[19.343537] (-) TimerEvent: {}
+[19.444293] (-) TimerEvent: {}
+[19.545114] (-) TimerEvent: {}
+[19.645984] (-) TimerEvent: {}
+[19.746817] (-) TimerEvent: {}
+[19.847650] (-) TimerEvent: {}
+[19.948411] (-) TimerEvent: {}
+[20.049155] (-) TimerEvent: {}
+[20.149886] (-) TimerEvent: {}
+[20.250658] (-) TimerEvent: {}
+[20.351446] (-) TimerEvent: {}
+[20.452240] (-) TimerEvent: {}
+[20.552982] (-) TimerEvent: {}
+[20.653724] (-) TimerEvent: {}
+[20.754467] (-) TimerEvent: {}
+[20.855255] (-) TimerEvent: {}
+[20.956060] (-) TimerEvent: {}
+[21.056831] (-) TimerEvent: {}
+[21.157562] (-) TimerEvent: {}
+[21.258261] (-) TimerEvent: {}
+[21.358954] (-) TimerEvent: {}
+[21.459710] (-) TimerEvent: {}
+[21.560484] (-) TimerEvent: {}
+[21.661221] (-) TimerEvent: {}
+[21.761954] (-) TimerEvent: {}
+[21.862708] (-) TimerEvent: {}
+[21.963469] (-) TimerEvent: {}
+[22.064274] (-) TimerEvent: {}
+[22.165134] (-) TimerEvent: {}
+[22.265913] (-) TimerEvent: {}
+[22.366675] (-) TimerEvent: {}
+[22.476924] (-) TimerEvent: {}
+[22.577692] (-) TimerEvent: {}
+[22.678476] (-) TimerEvent: {}
+[22.779281] (-) TimerEvent: {}
+[22.880086] (-) TimerEvent: {}
+[22.980852] (-) TimerEvent: {}
+[23.081644] (-) TimerEvent: {}
+[23.182415] (-) TimerEvent: {}
+[23.283216] (-) TimerEvent: {}
+[23.384079] (-) TimerEvent: {}
+[23.484881] (-) TimerEvent: {}
+[23.515335] (yolo_detector_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable yolo_detector_node\x1b[0m\n'}
+[23.585093] (-) TimerEvent: {}
+[23.685980] (-) TimerEvent: {}
+[23.786800] (-) TimerEvent: {}
+[23.887649] (-) TimerEvent: {}
+[23.988374] (yolo_detector_cpp) StderrLine: {'line': b'/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408\n'}
+[23.989085] (-) TimerEvent: {}
+[24.089653] (-) TimerEvent: {}
+[24.190373] (-) TimerEvent: {}
+[24.291139] (-) TimerEvent: {}
+[24.391840] (-) TimerEvent: {}
+[24.492590] (-) TimerEvent: {}
+[24.593349] (-) TimerEvent: {}
+[24.694110] (-) TimerEvent: {}
+[24.794938] (-) TimerEvent: {}
+[24.896390] (-) TimerEvent: {}
+[24.997175] (-) TimerEvent: {}
+[25.058574] (yolo_detector_cpp) StdoutLine: {'line': b'[100%] Built target yolo_detector_node\n'}
+[25.094835] (yolo_detector_cpp) CommandEnded: {'returncode': 0}
+[25.097381] (yolo_detector_cpp) JobProgress: {'identifier': 'yolo_detector_cpp', 'progress': 'install'}
+[25.097693] (-) TimerEvent: {}
+[25.116220] (yolo_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp'], 'cwd': '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'isaiahm'), ('SSH_CLIENT', '100.84.177.90 35424 22'), ('GIT_ASKPASS', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('BROWSER', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/helpers/browser.sh'), ('HOME', '/home/isaiahm'), ('OLDPWD', '/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src'), ('TERM_PROGRAM_VERSION', '1.135.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-394abe44-841c-4527-894e-9f9e11d1a79d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/isaiahm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-74e678a7233d8075.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/isaiahm/.vscode-server/data/User/workspaceStorage/306bd385dbea395ae1a60cc646b9dbb1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e2f3973494.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/isaiahm/ros2_ws/install/stereo_camera_cpp:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp'), ('SSH_CONNECTION', '100.84.177.90 35424 100.85.12.126 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/isaiahm/ros2_ws/install/stereo_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/isaiahm/ros2_ws/install/stereo_camera_cpp:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble')]), 'shell': False}
+[25.133794] (yolo_detector_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.134711] (yolo_detector_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.135803] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib/yolo_detector_cpp/yolo_detector_node\n'}
+[25.154524] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/package_run_dependencies/yolo_detector_cpp\n'}
+[25.173273] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/parent_prefix_path/yolo_detector_cpp\n'}
+[25.192275] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/ament_prefix_path.sh\n'}
+[25.197822] (-) TimerEvent: {}
+[25.210946] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/ament_prefix_path.dsv\n'}
+[25.230341] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/path.sh\n'}
+[25.247444] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/path.dsv\n'}
+[25.266223] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.bash\n'}
+[25.284134] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.sh\n'}
+[25.297978] (-) TimerEvent: {}
+[25.302444] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.zsh\n'}
+[25.320480] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.dsv\n'}
+[25.338473] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.dsv\n'}
+[25.356957] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/packages/yolo_detector_cpp\n'}
+[25.374889] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/cmake/yolo_detector_cppConfig.cmake\n'}
+[25.392921] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/cmake/yolo_detector_cppConfig-version.cmake\n'}
+[25.398123] (-) TimerEvent: {}
+[25.410818] (yolo_detector_cpp) StdoutLine: {'line': b'-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.xml\n'}
+[25.433370] (yolo_detector_cpp) CommandEnded: {'returncode': 0}
+[25.498327] (-) TimerEvent: {}
+[25.532719] (yolo_detector_cpp) JobEnded: {'identifier': 'yolo_detector_cpp', 'rc': 0}
+[25.534758] (-) EventReactorShutdown: {}

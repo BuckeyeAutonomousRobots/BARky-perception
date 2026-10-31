@@ -1,0 +1,253 @@
+[0.000000] (-) TimerEvent: {}
+[0.001187] (-) JobUnselected: {'identifier': 'stereo_camera'}
+[0.001562] (-) JobUnselected: {'identifier': 'stereo_camera_cpp'}
+[0.001876] (yolo_detector_cpp) JobQueued: {'identifier': 'yolo_detector_cpp', 'dependencies': OrderedDict()}
+[0.002012] (yolo_detector_cpp) JobStarted: {'identifier': 'yolo_detector_cpp'}
+[0.017501] (yolo_detector_cpp) JobProgress: {'identifier': 'yolo_detector_cpp', 'progress': 'cmake'}
+[0.018913] (yolo_detector_cpp) JobProgress: {'identifier': 'yolo_detector_cpp', 'progress': 'build'}
+[0.020260] (yolo_detector_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp', '--', '-j6', '-l6'], 'cwd': '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'isaiahm'), ('SSH_CLIENT', '100.84.177.90 35424 22'), ('GIT_ASKPASS', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('BROWSER', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/helpers/browser.sh'), ('HOME', '/home/isaiahm'), ('OLDPWD', '/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src'), ('TERM_PROGRAM_VERSION', '1.135.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-394abe44-841c-4527-894e-9f9e11d1a79d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/isaiahm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-74e678a7233d8075.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/isaiahm/.vscode-server/data/User/workspaceStorage/306bd385dbea395ae1a60cc646b9dbb1/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-e2f3973494.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/isaiahm/ros2_ws/install/stereo_camera_cpp:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp'), ('SSH_CONNECTION', '100.84.177.90 35424 100.85.12.126 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/isaiahm/ros2_ws/install/stereo_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/isaiahm/ros2_ws/install/stereo_camera_cpp:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble')]), 'shell': False}
+[0.099431] (-) TimerEvent: {}
+[0.124741] (yolo_detector_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o\x1b[0m\n'}
+[0.199614] (-) TimerEvent: {}
+[0.300314] (-) TimerEvent: {}
+[0.401004] (-) TimerEvent: {}
+[0.501718] (-) TimerEvent: {}
+[0.602409] (-) TimerEvent: {}
+[0.703123] (-) TimerEvent: {}
+[0.803834] (-) TimerEvent: {}
+[0.904530] (-) TimerEvent: {}
+[1.005289] (-) TimerEvent: {}
+[1.106014] (-) TimerEvent: {}
+[1.206754] (-) TimerEvent: {}
+[1.307457] (-) TimerEvent: {}
+[1.408188] (-) TimerEvent: {}
+[1.508932] (-) TimerEvent: {}
+[1.609696] (-) TimerEvent: {}
+[1.710414] (-) TimerEvent: {}
+[1.811146] (-) TimerEvent: {}
+[1.911877] (-) TimerEvent: {}
+[2.012613] (-) TimerEvent: {}
+[2.113383] (-) TimerEvent: {}
+[2.214124] (-) TimerEvent: {}
+[2.314877] (-) TimerEvent: {}
+[2.415593] (-) TimerEvent: {}
+[2.516314] (-) TimerEvent: {}
+[2.617013] (-) TimerEvent: {}
+[2.717761] (-) TimerEvent: {}
+[2.818483] (-) TimerEvent: {}
+[2.919201] (-) TimerEvent: {}
+[3.019913] (-) TimerEvent: {}
+[3.120634] (-) TimerEvent: {}
+[3.221387] (-) TimerEvent: {}
+[3.322098] (-) TimerEvent: {}
+[3.422808] (-) TimerEvent: {}
+[3.523519] (-) TimerEvent: {}
+[3.624238] (-) TimerEvent: {}
+[3.724963] (-) TimerEvent: {}
+[3.825688] (-) TimerEvent: {}
+[3.926394] (-) TimerEvent: {}
+[4.027111] (-) TimerEvent: {}
+[4.127819] (-) TimerEvent: {}
+[4.228519] (-) TimerEvent: {}
+[4.329251] (-) TimerEvent: {}
+[4.429961] (-) TimerEvent: {}
+[4.530660] (-) TimerEvent: {}
+[4.631402] (-) TimerEvent: {}
+[4.732263] (-) TimerEvent: {}
+[4.833093] (-) TimerEvent: {}
+[4.933958] (-) TimerEvent: {}
+[5.034679] (-) TimerEvent: {}
+[5.135400] (-) TimerEvent: {}
+[5.236128] (-) TimerEvent: {}
+[5.337036] (-) TimerEvent: {}
+[5.437942] (-) TimerEvent: {}
+[5.538807] (-) TimerEvent: {}
+[5.639802] (-) TimerEvent: {}
+[5.740539] (-) TimerEvent: {}
+[5.841313] (-) TimerEvent: {}
+[5.942168] (-) TimerEvent: {}
+[6.043001] (-) TimerEvent: {}
+[6.143786] (-) TimerEvent: {}
+[6.244588] (-) TimerEvent: {}
+[6.345443] (-) TimerEvent: {}
+[6.446301] (-) TimerEvent: {}
+[6.547135] (-) TimerEvent: {}
+[6.647943] (-) TimerEvent: {}
+[6.748752] (-) TimerEvent: {}
+[6.849654] (-) TimerEvent: {}
+[6.950496] (-) TimerEvent: {}
+[7.051316] (-) TimerEvent: {}
+[7.152151] (-) TimerEvent: {}
+[7.252957] (-) TimerEvent: {}
+[7.353812] (-) TimerEvent: {}
+[7.454614] (-) TimerEvent: {}
+[7.555436] (-) TimerEvent: {}
+[7.656253] (-) TimerEvent: {}
+[7.757096] (-) TimerEvent: {}
+[7.857979] (-) TimerEvent: {}
+[7.958801] (-) TimerEvent: {}
+[8.059627] (-) TimerEvent: {}
+[8.160459] (-) TimerEvent: {}
+[8.261409] (-) TimerEvent: {}
+[8.362240] (-) TimerEvent: {}
+[8.463077] (-) TimerEvent: {}
+[8.563943] (-) TimerEvent: {}
+[8.664783] (-) TimerEvent: {}
+[8.765678] (-) TimerEvent: {}
+[8.807416] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:87:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktd\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktm\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.808209] (yolo_detector_cpp) StderrLine: {'line': b'   87 |     \x1b[01;31m\x1b[Ktd\x1b[m\x1b[K::chrono::stead_clock::time_point fps_start_ = std::chrono::steady_clock::now();\n'}
+[8.808772] (yolo_detector_cpp) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.809406] (yolo_detector_cpp) StderrLine: {'line': b'      |     \x1b[32m\x1b[Ktm\x1b[m\x1b[K\n'}
+[8.809709] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KYoloDetectorNode::YoloDetectorNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.809987] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:15:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.810263] (yolo_detector_cpp) StderrLine: {'line': b'   15 |     YoloDetectorNode() \x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[8.810518] (yolo_detector_cpp) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.810764] (yolo_detector_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.811011] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.811254] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.811494] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.811736] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const rclcpp::Node&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.811982] (yolo_detector_cpp) StderrLine: {'line': b' 1294 |   \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[8.812220] (yolo_detector_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.840188] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[8.840794] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.841141] (yolo_detector_cpp) StderrLine: {'line': b'  101 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[8.841429] (yolo_detector_cpp) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.841685] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[8.841942] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.842192] (yolo_detector_cpp) StderrLine: {'line': b'   89 |   explicit \x1b[01;36m\x1b[KNode\x1b[m\x1b[K(\n'}
+[8.842477] (yolo_detector_cpp) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.842718] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 0 provided\n'}
+[8.843174] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:22:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kimage\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[KImage\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.843474] (yolo_detector_cpp) StderrLine: {'line': b'   22 |         image_sub_ = this-> create_subscription<sensor_msgs::msg::\x1b[01;31m\x1b[Kimage\x1b[m\x1b[K>(\n'}
+[8.843728] (yolo_detector_cpp) StderrLine: {'line': b'      |                                                                   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[8.843972] (yolo_detector_cpp) StderrLine: {'line': b'      |                                                                   \x1b[32m\x1b[KImage\x1b[m\x1b[K\n'}
+[8.854920] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:22:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KYoloDetectorNode::create_subscription<<expression error> >(std::string&, rclcpp::QoS&, std::_Bind_helper<false, void (YoloDetectorNode::*)(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >), YoloDetectorNode*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.855590] (yolo_detector_cpp) StderrLine: {'line': b'   22 |         image_sub_ = \x1b[01;31m\x1b[Kthis-> create_subscription<sensor_msgs::msg::image>(\x1b[m\x1b[K\n'}
+[8.855928] (yolo_detector_cpp) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[8.856218] (yolo_detector_cpp) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K            topic,\x1b[m\x1b[K\n'}
+[8.856726] (yolo_detector_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~\x1b[m\x1b[K                                                       \n'}
+[8.856995] (yolo_detector_cpp) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[K            qos,\x1b[m\x1b[K\n'}
+[8.857341] (yolo_detector_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~\x1b[m\x1b[K                                                         \n'}
+[8.857602] (yolo_detector_cpp) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[K            std::bind(\x1b[m\x1b[K\n'}
+[8.857852] (yolo_detector_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                                                   \n'}
+[8.858138] (yolo_detector_cpp) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[K                &YoloDetectorNode::image_callback,\x1b[m\x1b[K\n'}
+[8.858426] (yolo_detector_cpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                       \n'}
+[8.858671] (yolo_detector_cpp) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[K                this,std::placeholders::_1\x1b[m\x1b[K\n'}
+[8.858914] (yolo_detector_cpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                               \n'}
+[8.859155] (yolo_detector_cpp) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K            )\x1b[m\x1b[K\n'}
+[8.859391] (yolo_detector_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                            \n'}
+[8.859632] (yolo_detector_cpp) StderrLine: {'line': b'   29 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[8.859871] (yolo_detector_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                \n'}
+[8.860136] (yolo_detector_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[8.860379] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[8.860623] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.860856] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.861091] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.861433] (yolo_detector_cpp) StderrLine: {'line': b'  219 |   \x1b[01;36m\x1b[Kcreate_subscription\x1b[m\x1b[K(\n'}
+[8.861682] (yolo_detector_cpp) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.861917] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[8.862157] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:22:73:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[8.862399] (yolo_detector_cpp) StderrLine: {'line': b'   22 |         image_sub_ = \x1b[01;31m\x1b[Kthis-> create_subscription<sensor_msgs::msg::image>(\x1b[m\x1b[K\n'}
+[8.862639] (yolo_detector_cpp) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[8.862871] (yolo_detector_cpp) StderrLine: {'line': b'   23 | \x1b[01;31m\x1b[K            topic,\x1b[m\x1b[K\n'}
+[8.863104] (yolo_detector_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~\x1b[m\x1b[K                                                       \n'}
+[8.863336] (yolo_detector_cpp) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[K            qos,\x1b[m\x1b[K\n'}
+[8.863573] (yolo_detector_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~\x1b[m\x1b[K                                                         \n'}
+[8.863810] (yolo_detector_cpp) StderrLine: {'line': b'   25 | \x1b[01;31m\x1b[K            std::bind(\x1b[m\x1b[K\n'}
+[8.864202] (yolo_detector_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~\x1b[m\x1b[K                                                   \n'}
+[8.864456] (yolo_detector_cpp) StderrLine: {'line': b'   26 | \x1b[01;31m\x1b[K                &YoloDetectorNode::image_callback,\x1b[m\x1b[K\n'}
+[8.864696] (yolo_detector_cpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                       \n'}
+[8.864931] (yolo_detector_cpp) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[K                this,std::placeholders::_1\x1b[m\x1b[K\n'}
+[8.865218] (yolo_detector_cpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                               \n'}
+[8.865472] (yolo_detector_cpp) StderrLine: {'line': b'   28 | \x1b[01;31m\x1b[K            )\x1b[m\x1b[K\n'}
+[8.865703] (-) TimerEvent: {}
+[8.866057] (yolo_detector_cpp) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                            \n'}
+[8.866374] (yolo_detector_cpp) StderrLine: {'line': b'   29 | \x1b[01;31m\x1b[K        )\x1b[m\x1b[K;\n'}
+[8.866627] (yolo_detector_cpp) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K~\x1b[m\x1b[K                                                                \n'}
+[8.866871] (yolo_detector_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[8.867134] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[8.867383] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[8.867623] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[8.867861] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[8.868097] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[8.868333] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[8.868573] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[8.868808] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[8.869041] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[8.869340] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[8.869617] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:1\x1b[m\x1b[K:\n'}
+[8.869884] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:34:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd::string\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kclass std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kc_string\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.870146] (yolo_detector_cpp) StderrLine: {'line': b'   34 |             topic.\x1b[01;31m\x1b[Kc_string\x1b[m\x1b[K()\n'}
+[8.870387] (yolo_detector_cpp) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.870623] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid YoloDetectorNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.870867] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:46:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kfound \xe2\x80\x98\x1b[01m\x1b[K:\x1b[m\x1b[K\xe2\x80\x99 in nested-name-specifier, expected \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.871113] (yolo_detector_cpp) StderrLine: {'line': b'   46 |                 sensor_msgs::image_encodings\x1b[01;31m\x1b[K:\x1b[m\x1b[KBGR8\n'}
+[8.871351] (yolo_detector_cpp) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.871616] (yolo_detector_cpp) StderrLine: {'line': b'      |                                             \x1b[32m\x1b[K::\x1b[m\x1b[K\n'}
+[8.908491] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:57:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfps_start_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kva_start\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.908978] (yolo_detector_cpp) StderrLine: {'line': b'   57 |                 now -\x1b[01;31m\x1b[Kfps_start_\x1b[m\x1b[K\n'}
+[8.909303] (yolo_detector_cpp) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.909563] (yolo_detector_cpp) StderrLine: {'line': b'      |                      \x1b[32m\x1b[Kva_start\x1b[m\x1b[K\n'}
+[8.936370] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:70:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kfrmae_count_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kframe_count_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[8.936734] (yolo_detector_cpp) StderrLine: {'line': b'   70 |                 \x1b[01;31m\x1b[Kfrmae_count_\x1b[m\x1b[K = 0\n'}
+[8.937370] (yolo_detector_cpp) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.937643] (yolo_detector_cpp) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kframe_count_\x1b[m\x1b[K\n'}
+[8.937887] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:22:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[KISO C++ forbids declaration of \xe2\x80\x98\x1b[01m\x1b[Kcv_brdge\x1b[m\x1b[K\xe2\x80\x99 with no type [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.938148] (yolo_detector_cpp) StderrLine: {'line': b'   74 |         catch (const \x1b[01;31m\x1b[Kcv_brdge\x1b[m\x1b[K::Exception &e) {\n'}
+[8.938393] (yolo_detector_cpp) StderrLine: {'line': b'      |                      \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[8.938630] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.938873] (yolo_detector_cpp) StderrLine: {'line': b'   74 |         catch (const cv_brdge\x1b[01;31m\x1b[K::\x1b[m\x1b[KException &e) {\n'}
+[8.939109] (yolo_detector_cpp) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.939341] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:15:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.939625] (yolo_detector_cpp) StderrLine: {'line': b'   74 |         catch \x1b[01;36m\x1b[K(\x1b[m\x1b[Kconst cv_brdge::Exception &e) {\n'}
+[8.939876] (yolo_detector_cpp) StderrLine: {'line': b'      |               \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[8.940589] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K::\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[8.940904] (yolo_detector_cpp) StderrLine: {'line': b'   74 |         catch (const cv_brdge\x1b[01;31m\x1b[K::\x1b[m\x1b[KException &e) {\n'}
+[8.941237] (yolo_detector_cpp) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[8.941505] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[K::Exception\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.941799] (yolo_detector_cpp) StderrLine: {'line': b'   74 |         catch (const cv_brdge::\x1b[01;31m\x1b[KException\x1b[m\x1b[K &e) {\n'}
+[8.942051] (yolo_detector_cpp) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.942299] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[8.942545] (yolo_detector_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/opencv4/opencv2/core/core.hpp:48\x1b[m\x1b[K,\n'}
+[8.942781] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43\x1b[m\x1b[K,\n'}
+[8.943016] (yolo_detector_cpp) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:4\x1b[m\x1b[K:\n'}
+[8.943249] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/opencv4/opencv2/core.hpp:118:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcv::Exception\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.943534] (yolo_detector_cpp) StderrLine: {'line': b'  118 | class CV_EXPORTS \x1b[01;36m\x1b[KException\x1b[m\x1b[K : public std::exception\n'}
+[8.943773] (yolo_detector_cpp) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.944013] (yolo_detector_cpp) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:4\x1b[m\x1b[K:\n'}
+[8.944248] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:56:24:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kcv_bridge::Exception\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.944488] (yolo_detector_cpp) StderrLine: {'line': b'   56 | class CV_BRIDGE_EXPORT \x1b[01;36m\x1b[KException\x1b[m\x1b[K : public std::runtime_error\n'}
+[8.944719] (yolo_detector_cpp) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.963170] (yolo_detector_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:43:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ke\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[8.963462] (yolo_detector_cpp) StderrLine: {'line': b'   74 |         catch (const cv_brdge::Exception &\x1b[01;31m\x1b[Ke\x1b[m\x1b[K) {\n'}
+[8.963717] (yolo_detector_cpp) StderrLine: {'line': b'      |                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[8.965807] (-) TimerEvent: {}
+[9.066385] (-) TimerEvent: {}
+[9.167219] (-) TimerEvent: {}
+[9.268075] (-) TimerEvent: {}
+[9.368915] (-) TimerEvent: {}
+[9.469781] (-) TimerEvent: {}
+[9.570580] (-) TimerEvent: {}
+[9.671398] (-) TimerEvent: {}
+[9.772216] (-) TimerEvent: {}
+[9.873019] (-) TimerEvent: {}
+[9.973801] (-) TimerEvent: {}
+[10.074634] (-) TimerEvent: {}
+[10.175473] (-) TimerEvent: {}
+[10.276286] (-) TimerEvent: {}
+[10.377166] (-) TimerEvent: {}
+[10.477981] (-) TimerEvent: {}
+[10.578814] (-) TimerEvent: {}
+[10.679625] (-) TimerEvent: {}
+[10.780443] (-) TimerEvent: {}
+[10.881281] (-) TimerEvent: {}
+[10.982108] (-) TimerEvent: {}
+[11.082952] (-) TimerEvent: {}
+[11.144170] (yolo_detector_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/yolo_detector_node.dir/build.make:76: CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o] Error 1\n'}
+[11.144954] (yolo_detector_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yolo_detector_node.dir/all] Error 2\n'}
+[11.145505] (yolo_detector_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.151447] (yolo_detector_cpp) CommandEnded: {'returncode': 2}
+[11.183097] (-) TimerEvent: {}
+[11.184255] (yolo_detector_cpp) JobEnded: {'identifier': 'yolo_detector_cpp', 'rc': 2}
+[11.195934] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/tensorrt_engine.cpp:[m[K In member function ‘[01m[Kbool TensorRTEngine::infer(const float*, std::vector<float>&)[m[K’:
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/tensorrt_engine.cpp:156:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput_elements[m[K’ was not declared in this scope; did you mean ‘[01m[Kinput_elements_[m[K’?
+  156 |         [01;31m[Kinput_elements[m[K * sizeof(float),
+      |         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |         [32m[Kinput_elements_[m[K
+gmake[2]: *** [CMakeFiles/yolo_detector_node.dir/build.make:90: CMakeFiles/yolo_detector_node.dir/src/tensorrt_engine.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yolo_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
