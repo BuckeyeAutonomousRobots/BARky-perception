@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.000489] (stereo_camera_cpp) JobQueued: {'identifier': 'stereo_camera_cpp', 'dependencies': OrderedDict()}
+[0.001284] (stereo_camera_cpp) JobStarted: {'identifier': 'stereo_camera_cpp'}
+[0.016176] (stereo_camera_cpp) JobProgress: {'identifier': 'stereo_camera_cpp', 'progress': 'cmake'}
+[0.017529] (stereo_camera_cpp) JobProgress: {'identifier': 'stereo_camera_cpp', 'progress': 'build'}
+[0.018913] (stereo_camera_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp', '--', '-j6', '-l6'], 'cwd': '/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'isaiahm'), ('SSH_CLIENT', '100.84.177.90 41888 22'), ('GIT_ASKPASS', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/local/cuda-12.6/lib64:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-12.6/lib64:'), ('BROWSER', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/helpers/browser.sh'), ('HOME', '/home/isaiahm'), ('OLDPWD', '/home/isaiahm/ros2_ws/src'), ('TERM_PROGRAM_VERSION', '1.135.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-8406becb-57a9-4ed7-a76d-ac9e6624e19a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/isaiahm/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/usr/local/cuda-12.6/bin:/home/isaiahm/.vscode-server/cli/servers/Stable-08d4889f9ec4a1685d257b9b95de036c8e1ce1e5/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/cuda-12.6/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/isaiahm/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-e50e6f0daedfa831.txt'), ('LANG', 'en_US.UTF-8'), ('PYTHONSTARTUP', '/home/isaiahm/.vscode-server/data/User/workspaceStorage/88f8ba55e3a084c87b694d83dd0cc464/ms-python.python/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-339ba693dc.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp'), ('SSH_CONNECTION', '100.84.177.90 41888 100.85.12.126 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/isaiahm/ros2_ws/install/stereo_camera/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble')]), 'shell': False}
+[0.099371] (-) TimerEvent: {}
+[0.119798] (stereo_camera_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o\x1b[0m\n'}
+[0.199560] (-) TimerEvent: {}
+[0.300336] (-) TimerEvent: {}
+[0.401172] (-) TimerEvent: {}
+[0.502063] (-) TimerEvent: {}
+[0.602914] (-) TimerEvent: {}
+[0.703762] (-) TimerEvent: {}
+[0.804599] (-) TimerEvent: {}
+[0.905443] (-) TimerEvent: {}
+[1.006307] (-) TimerEvent: {}
+[1.107148] (-) TimerEvent: {}
+[1.207975] (-) TimerEvent: {}
+[1.308820] (-) TimerEvent: {}
+[1.409672] (-) TimerEvent: {}
+[1.510391] (-) TimerEvent: {}
+[1.611113] (-) TimerEvent: {}
+[1.711856] (-) TimerEvent: {}
+[1.812604] (-) TimerEvent: {}
+[1.913336] (-) TimerEvent: {}
+[2.014070] (-) TimerEvent: {}
+[2.114794] (-) TimerEvent: {}
+[2.215545] (-) TimerEvent: {}
+[2.316397] (-) TimerEvent: {}
+[2.417244] (-) TimerEvent: {}
+[2.518127] (-) TimerEvent: {}
+[2.618990] (-) TimerEvent: {}
+[2.719838] (-) TimerEvent: {}
+[2.820689] (-) TimerEvent: {}
+[2.921575] (-) TimerEvent: {}
+[3.022415] (-) TimerEvent: {}
+[3.123292] (-) TimerEvent: {}
+[3.224146] (-) TimerEvent: {}
+[3.324988] (-) TimerEvent: {}
+[3.425864] (-) TimerEvent: {}
+[3.526700] (-) TimerEvent: {}
+[3.627530] (-) TimerEvent: {}
+[3.728380] (-) TimerEvent: {}
+[3.829233] (-) TimerEvent: {}
+[3.930113] (-) TimerEvent: {}
+[4.030967] (-) TimerEvent: {}
+[4.131829] (-) TimerEvent: {}
+[4.232713] (-) TimerEvent: {}
+[4.333662] (-) TimerEvent: {}
+[4.434549] (-) TimerEvent: {}
+[4.535382] (-) TimerEvent: {}
+[4.636170] (-) TimerEvent: {}
+[4.736906] (-) TimerEvent: {}
+[4.837675] (-) TimerEvent: {}
+[4.938402] (-) TimerEvent: {}
+[5.039118] (-) TimerEvent: {}
+[5.139860] (-) TimerEvent: {}
+[5.240568] (-) TimerEvent: {}
+[5.341353] (-) TimerEvent: {}
+[5.442180] (-) TimerEvent: {}
+[5.542958] (-) TimerEvent: {}
+[5.643802] (-) TimerEvent: {}
+[5.744686] (-) TimerEvent: {}
+[5.845571] (-) TimerEvent: {}
+[5.946390] (-) TimerEvent: {}
+[6.047240] (-) TimerEvent: {}
+[6.148087] (-) TimerEvent: {}
+[6.248932] (-) TimerEvent: {}
+[6.349724] (-) TimerEvent: {}
+[6.450550] (-) TimerEvent: {}
+[6.551381] (-) TimerEvent: {}
+[6.652225] (-) TimerEvent: {}
+[6.753122] (-) TimerEvent: {}
+[6.853972] (-) TimerEvent: {}
+[6.954805] (-) TimerEvent: {}
+[7.055662] (-) TimerEvent: {}
+[7.156505] (-) TimerEvent: {}
+[7.257355] (-) TimerEvent: {}
+[7.358212] (-) TimerEvent: {}
+[7.459046] (-) TimerEvent: {}
+[7.559885] (-) TimerEvent: {}
+[7.660719] (-) TimerEvent: {}
+[7.761592] (-) TimerEvent: {}
+[7.862421] (-) TimerEvent: {}
+[7.963495] (-) TimerEvent: {}
+[8.064388] (-) TimerEvent: {}
+[8.165293] (-) TimerEvent: {}
+[8.266148] (-) TimerEvent: {}
+[8.366979] (-) TimerEvent: {}
+[8.467820] (-) TimerEvent: {}
+[8.549195] (stereo_camera_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid StereoCameraNode::capture_frame()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.550024] (stereo_camera_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:109:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_bridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.550368] (stereo_camera_cpp) StderrLine: {'line': b'  109 |         auto left_msg = \x1b[01;31m\x1b[Kcv_bridge\x1b[m\x1b[K::CvImage(\n'}
+[8.550666] (stereo_camera_cpp) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.550933] (stereo_camera_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:115:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_bridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.551203] (stereo_camera_cpp) StderrLine: {'line': b'  115 |         auto right_msg = \x1b[01;31m\x1b[Kcv_bridge\x1b[m\x1b[K::CvImage(\n'}
+[8.551642] (stereo_camera_cpp) StderrLine: {'line': b'      |                          \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.551990] (stereo_camera_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:121:29:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcv_bridge\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[8.552274] (stereo_camera_cpp) StderrLine: {'line': b'  121 |         auto combined_msg = \x1b[01;31m\x1b[Kcv_bridge\x1b[m\x1b[K::CvImage(\n'}
+[8.552563] (stereo_camera_cpp) StderrLine: {'line': b'      |                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[8.567926] (-) TimerEvent: {}
+[8.668625] (-) TimerEvent: {}
+[8.769452] (-) TimerEvent: {}
+[8.870297] (-) TimerEvent: {}
+[8.971105] (-) TimerEvent: {}
+[9.071935] (-) TimerEvent: {}
+[9.172744] (-) TimerEvent: {}
+[9.273625] (-) TimerEvent: {}
+[9.374461] (-) TimerEvent: {}
+[9.475301] (-) TimerEvent: {}
+[9.576140] (-) TimerEvent: {}
+[9.676983] (-) TimerEvent: {}
+[9.777878] (-) TimerEvent: {}
+[9.878710] (-) TimerEvent: {}
+[9.979546] (-) TimerEvent: {}
+[10.080390] (-) TimerEvent: {}
+[10.181229] (-) TimerEvent: {}
+[10.282089] (-) TimerEvent: {}
+[10.382916] (-) TimerEvent: {}
+[10.483757] (-) TimerEvent: {}
+[10.584596] (-) TimerEvent: {}
+[10.685444] (-) TimerEvent: {}
+[10.786309] (-) TimerEvent: {}
+[10.887186] (-) TimerEvent: {}
+[10.988006] (-) TimerEvent: {}
+[11.088844] (-) TimerEvent: {}
+[11.189684] (-) TimerEvent: {}
+[11.290513] (-) TimerEvent: {}
+[11.391330] (-) TimerEvent: {}
+[11.447300] (stereo_camera_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/stereo_camera_node.dir/build.make:76: CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o] Error 1\n'}
+[11.448284] (stereo_camera_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stereo_camera_node.dir/all] Error 2\n'}
+[11.448735] (stereo_camera_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[11.454331] (stereo_camera_cpp) CommandEnded: {'returncode': 2}
+[11.488426] (stereo_camera_cpp) JobEnded: {'identifier': 'stereo_camera_cpp', 'rc': 2}
+[11.491409] (-) TimerEvent: {}
+[11.499972] (-) EventReactorShutdown: {}

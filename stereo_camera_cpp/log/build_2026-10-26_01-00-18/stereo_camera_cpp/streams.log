@@ -1,0 +1,16 @@
+[0.022s] Invoking command in '/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp': CMAKE_PREFIX_PATH=/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp -- -j6 -l6
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o[0m
+[8.549s] [01m[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:[m[K In member function ‘[01m[Kvoid StereoCameraNode::capture_frame()[m[K’:
+[8.549s] [01m[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:109:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge[m[K’ has not been declared
+[8.549s]   109 |         auto left_msg = [01;31m[Kcv_bridge[m[K::CvImage(
+[8.550s]       |                         [01;31m[K^~~~~~~~~[m[K
+[8.550s] [01m[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:115:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge[m[K’ has not been declared
+[8.550s]   115 |         auto right_msg = [01;31m[Kcv_bridge[m[K::CvImage(
+[8.551s]       |                          [01;31m[K^~~~~~~~~[m[K
+[8.551s] [01m[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:121:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kcv_bridge[m[K’ has not been declared
+[8.551s]   121 |         auto combined_msg = [01;31m[Kcv_bridge[m[K::CvImage(
+[8.551s]       |                             [01;31m[K^~~~~~~~~[m[K
+[11.446s] gmake[2]: *** [CMakeFiles/stereo_camera_node.dir/build.make:76: CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o] Error 1
+[11.447s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stereo_camera_node.dir/all] Error 2
+[11.448s] gmake: *** [Makefile:146: all] Error 2
+[11.454s] Invoked command in '/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp' returned '2': CMAKE_PREFIX_PATH=/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp -- -j6 -l6

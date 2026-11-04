@@ -1,0 +1,37 @@
+[1.503s] Invoking command in '/home/isaiahm/ros2_ws/src/stereo_camera': PYTHONPATH=/home/isaiahm/ros2_ws/src/build/stereo_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stereo_camera build --build-base /home/isaiahm/ros2_ws/src/build/stereo_camera/build install --record /home/isaiahm/ros2_ws/src/build/stereo_camera/install.log --install-scripts $base/lib/stereo_camera --single-version-externally-managed install_data
+[2.016s] running egg_info
+[2.018s] creating ../build/stereo_camera/stereo_camera.egg-info
+[2.018s] writing ../build/stereo_camera/stereo_camera.egg-info/PKG-INFO
+[2.019s] writing dependency_links to ../build/stereo_camera/stereo_camera.egg-info/dependency_links.txt
+[2.019s] writing entry points to ../build/stereo_camera/stereo_camera.egg-info/entry_points.txt
+[2.020s] writing requirements to ../build/stereo_camera/stereo_camera.egg-info/requires.txt
+[2.020s] writing top-level names to ../build/stereo_camera/stereo_camera.egg-info/top_level.txt
+[2.020s] writing manifest file '../build/stereo_camera/stereo_camera.egg-info/SOURCES.txt'
+[2.023s] reading manifest file '../build/stereo_camera/stereo_camera.egg-info/SOURCES.txt'
+[2.025s] writing manifest file '../build/stereo_camera/stereo_camera.egg-info/SOURCES.txt'
+[2.025s] running build
+[2.025s] running build_py
+[2.026s] creating /home/isaiahm/ros2_ws/src/build/stereo_camera/build
+[2.026s] creating /home/isaiahm/ros2_ws/src/build/stereo_camera/build/lib
+[2.026s] creating /home/isaiahm/ros2_ws/src/build/stereo_camera/build/lib/stereo_camera
+[2.026s] copying stereo_camera/stereo_camera_node.py -> /home/isaiahm/ros2_ws/src/build/stereo_camera/build/lib/stereo_camera
+[2.027s] copying stereo_camera/__init__.py -> /home/isaiahm/ros2_ws/src/build/stereo_camera/build/lib/stereo_camera
+[2.027s] running install
+[2.028s] running install_lib
+[2.029s] creating /home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages/stereo_camera
+[2.030s] copying /home/isaiahm/ros2_ws/src/build/stereo_camera/build/lib/stereo_camera/stereo_camera_node.py -> /home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages/stereo_camera
+[2.030s] copying /home/isaiahm/ros2_ws/src/build/stereo_camera/build/lib/stereo_camera/__init__.py -> /home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages/stereo_camera
+[2.031s] byte-compiling /home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages/stereo_camera/stereo_camera_node.py to stereo_camera_node.cpython-310.pyc
+[2.033s] byte-compiling /home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages/stereo_camera/__init__.py to __init__.cpython-310.pyc
+[2.034s] running install_data
+[2.035s] creating /home/isaiahm/ros2_ws/src/install/stereo_camera/share/ament_index
+[2.035s] creating /home/isaiahm/ros2_ws/src/install/stereo_camera/share/ament_index/resource_index
+[2.035s] creating /home/isaiahm/ros2_ws/src/install/stereo_camera/share/ament_index/resource_index/packages
+[2.035s] copying resource/stereo_camera -> /home/isaiahm/ros2_ws/src/install/stereo_camera/share/ament_index/resource_index/packages
+[2.036s] copying package.xml -> /home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera
+[2.036s] running install_egg_info
+[2.040s] Copying ../build/stereo_camera/stereo_camera.egg-info to /home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages/stereo_camera-0.0.0-py3.10.egg-info
+[2.042s] running install_scripts
+[2.093s] Installing stereo_camera_node script to /home/isaiahm/ros2_ws/src/install/stereo_camera/lib/stereo_camera
+[2.094s] writing list of installed files to '/home/isaiahm/ros2_ws/src/build/stereo_camera/install.log'
+[2.166s] Invoked command in '/home/isaiahm/ros2_ws/src/stereo_camera' returned '0': PYTHONPATH=/home/isaiahm/ros2_ws/src/build/stereo_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stereo_camera build --build-base /home/isaiahm/ros2_ws/src/build/stereo_camera/build install --record /home/isaiahm/ros2_ws/src/build/stereo_camera/install.log --install-scripts $base/lib/stereo_camera --single-version-externally-managed install_data

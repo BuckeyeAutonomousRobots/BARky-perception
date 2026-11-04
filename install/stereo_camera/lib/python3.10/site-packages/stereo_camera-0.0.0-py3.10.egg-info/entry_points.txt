@@ -1,0 +1,3 @@
+[console_scripts]
+stereo_camera_node = stereo_camera.stereo_camera_node:main
+

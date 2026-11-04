@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target yolo_detector_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable yolo_detector_node[0m
+/usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[100%] Built target yolo_detector_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib/yolo_detector_cpp/yolo_detector_node
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/package_run_dependencies/yolo_detector_cpp
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/parent_prefix_path/yolo_detector_cpp
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/path.sh
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/path.dsv
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.bash
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.sh
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.zsh
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.dsv
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.dsv
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/packages/yolo_detector_cpp
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/cmake/yolo_detector_cppConfig.cmake
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/cmake/yolo_detector_cppConfig-version.cmake
+-- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.xml

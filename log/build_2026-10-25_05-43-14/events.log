@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000981] (-) JobUnselected: {'identifier': 'stereo_camera'}
+[0.001130] (-) JobUnselected: {'identifier': 'stereo_camera_cpp'}
+[0.001217] (-) JobUnselected: {'identifier': 'yolo_detector_cpp'}
+[0.001627] (-) EventReactorShutdown: {}

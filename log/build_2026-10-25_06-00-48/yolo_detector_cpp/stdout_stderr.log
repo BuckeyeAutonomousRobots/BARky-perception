@@ -1,0 +1,132 @@
+[35m[1mConsolidate compiler generated dependencies of target yolo_detector_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o[0m
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:87:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktd[m[K’ does not name a type; did you mean ‘[01m[Ktm[m[K’?
+   87 |     [01;31m[Ktd[m[K::chrono::stead_clock::time_point fps_start_ = std::chrono::steady_clock::now();
+      |     [01;31m[K^~[m[K
+      |     [32m[Ktm[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:[m[K In constructor ‘[01m[KYoloDetectorNode::YoloDetectorNode()[m[K’:
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:15:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node()[m[K’
+   15 |     YoloDetectorNode() [01;31m[K{[m[K
+      |                        [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const rclcpp::Node&, const string&)[m[K’
+ 1294 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1294:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const string&, const rclcpp::NodeOptions&)[m[K’
+  101 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:101:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::Node(const string&, const rclcpp::NodeOptions&)[m[K’
+   89 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:89:12:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 0 provided
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:22:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kimage[m[K’ is not a member of ‘[01m[Ksensor_msgs::msg[m[K’; did you mean ‘[01m[KImage[m[K’?
+   22 |         image_sub_ = this-> create_subscription<sensor_msgs::msg::[01;31m[Kimage[m[K>(
+      |                                                                   [01;31m[K^~~~~[m[K
+      |                                                                   [32m[KImage[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:22:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KYoloDetectorNode::create_subscription<<expression error> >(std::string&, rclcpp::QoS&, std::_Bind_helper<false, void (YoloDetectorNode::*)(std::shared_ptr<const sensor_msgs::msg::Image_<std::allocator<void> > >), YoloDetectorNode*, const std::_Placeholder<1>&>::type)[m[K’
+   22 |         image_sub_ = [01;31m[Kthis-> create_subscription<sensor_msgs::msg::image>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   23 | [01;31m[K            topic,[m[K
+      |             [01;31m[K~~~~~~[m[K                                                       
+   24 | [01;31m[K            qos,[m[K
+      |             [01;31m[K~~~~[m[K                                                         
+   25 | [01;31m[K            std::bind([m[K
+      |             [01;31m[K~~~~~~~~~~[m[K                                                   
+   26 | [01;31m[K                &YoloDetectorNode::image_callback,[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                       
+   27 | [01;31m[K                this,std::placeholders::_1[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                               
+   28 | [01;31m[K            )[m[K
+      |             [01;31m[K~[m[K                                                            
+   29 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:22:73:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   22 |         image_sub_ = [01;31m[Kthis-> create_subscription<sensor_msgs::msg::image>([m[K
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   23 | [01;31m[K            topic,[m[K
+      |             [01;31m[K~~~~~~[m[K                                                       
+   24 | [01;31m[K            qos,[m[K
+      |             [01;31m[K~~~~[m[K                                                         
+   25 | [01;31m[K            std::bind([m[K
+      |             [01;31m[K~~~~~~~~~~[m[K                                                   
+   26 | [01;31m[K                &YoloDetectorNode::image_callback,[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                       
+   27 | [01;31m[K                this,std::placeholders::_1[m[K
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                               
+   28 | [01;31m[K            )[m[K
+      |             [01;31m[K~[m[K                                                            
+   29 | [01;31m[K        )[m[K;
+      |         [01;31m[K~[m[K                                                                
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:1[m[K:
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:34:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’} has no member named ‘[01m[Kc_string[m[K’; did you mean ‘[01m[Kc_str[m[K’?
+   34 |             topic.[01;31m[Kc_string[m[K()
+      |                   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:[m[K In member function ‘[01m[Kvoid YoloDetectorNode::image_callback(sensor_msgs::msg::Image_<std::allocator<void> >::ConstSharedPtr)[m[K’:
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:46:45:[m[K [01;31m[Kerror: [m[Kfound ‘[01m[K:[m[K’ in nested-name-specifier, expected ‘[01m[K::[m[K’
+   46 |                 sensor_msgs::image_encodings[01;31m[K:[m[KBGR8
+      |                                             [01;31m[K^[m[K
+      |                                             [32m[K::[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:57:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kfps_start_[m[K’ was not declared in this scope; did you mean ‘[01m[Kva_start[m[K’?
+   57 |                 now -[01;31m[Kfps_start_[m[K
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Kva_start[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:70:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kfrmae_count_[m[K’ was not declared in this scope; did you mean ‘[01m[Kframe_count_[m[K’?
+   70 |                 [01;31m[Kfrmae_count_[m[K = 0
+      |                 [01;31m[K^~~~~~~~~~~~[m[K
+      |                 [32m[Kframe_count_[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:22:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Kcv_brdge[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   74 |         catch (const [01;31m[Kcv_brdge[m[K::Exception &e) {
+      |                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+   74 |         catch (const cv_brdge[01;31m[K::[m[KException &e) {
+      |                              [01;31m[K^~[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:15:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   74 |         catch [01;36m[K([m[Kconst cv_brdge::Exception &e) {
+      |               [01;36m[K^[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[K::[m[K’ token
+   74 |         catch (const cv_brdge[01;31m[K::[m[KException &e) {
+      |                              [01;31m[K^~[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:32:[m[K [01;31m[Kerror: [m[K‘[01m[K::Exception[m[K’ has not been declared
+   74 |         catch (const cv_brdge::[01;31m[KException[m[K &e) {
+      |                                [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:32:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/opencv4/opencv2/core/core.hpp:48[m[K,
+                 from [01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:43[m[K,
+                 from [01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:4[m[K:
+[01m[K/usr/include/opencv4/opencv2/core.hpp:118:18:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv::Exception[m[K’
+  118 | class CV_EXPORTS [01;36m[KException[m[K : public std::exception
+      |                  [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:4[m[K:
+[01m[K/opt/ros/humble/include/cv_bridge/cv_bridge/cv_bridge.h:56:24:[m[K [01;36m[Knote: [m[K  ‘[01m[Kcv_bridge::Exception[m[K’
+   56 | class CV_BRIDGE_EXPORT [01;36m[KException[m[K : public std::runtime_error
+      |                        [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/isaiahm/ros2_ws/src/yolo_detector_cpp/src/yolo_detector_node.cpp:74:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ke[m[K’ was not declared in this scope
+   74 |         catch (const cv_brdge::Exception &[01;31m[Ke[m[K) {
+      |                                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/yolo_detector_node.dir/build.make:76: CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/yolo_detector_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

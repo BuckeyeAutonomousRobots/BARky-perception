@@ -1,0 +1,111 @@
+[0.303s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.303s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff87871e40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff87871930>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff87871930>>)
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.758s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.759s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.759s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/isaiahm/ros2_ws/src'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.759s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.760s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'ignore_ament_install'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extensions ['colcon_pkg']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'colcon_pkg'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extensions ['colcon_meta']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(stereo_camera) by extension 'ros'
+[0.803s] DEBUG:colcon.colcon_core.package_identification:Package 'stereo_camera' with type 'ros.ament_python' and name 'stereo_camera'
+[0.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.803s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.861s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.867s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/isaiahm/ros2_ws/install
+[0.869s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 188 installed packages in /opt/ros/humble
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'cmake_target' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'cmake_clean_first' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'cmake_force_configure' from command line to 'False'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'ament_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[0.973s] Level 5:colcon.colcon_core.verb:set package 'stereo_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.974s] DEBUG:colcon.colcon_core.verb:Building package 'stereo_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/isaiahm/ros2_ws/src/build/stereo_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/isaiahm/ros2_ws/src/install/stereo_camera', 'merge_install': False, 'path': '/home/isaiahm/ros2_ws/src/stereo_camera', 'symlink_install': False, 'test_result_base': None}
+[0.974s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.981s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.982s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/isaiahm/ros2_ws/src/stereo_camera' with build type 'ament_python'
+[0.982s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo_camera', 'ament_prefix_path')
+[0.991s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/hook/ament_prefix_path.ps1'
+[0.996s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/hook/ament_prefix_path.dsv'
+[0.998s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/hook/ament_prefix_path.sh'
+[1.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.662s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/isaiahm/ros2_ws/src/stereo_camera'
+[1.663s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.663s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.481s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: bdist_rpm, bdist_wheel, register, bdist, egg_info, bdist_dumb, easy_install, check, upload, clean, build, install_data, build_clib, symlink_data, bdist_egg, test, install_lib, upload_docs, build_scripts, saveopts, install, install_egg_info, install_headers, sdist, develop, setopt, install_scripts, build_ext, dist_info, alias, rotate, build_py
+[2.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/isaiahm/ros2_ws/src/stereo_camera': PYTHONPATH=/home/isaiahm/ros2_ws/src/build/stereo_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stereo_camera build --build-base /home/isaiahm/ros2_ws/src/build/stereo_camera/build install --record /home/isaiahm/ros2_ws/src/build/stereo_camera/install.log --install-scripts $base/lib/stereo_camera --single-version-externally-managed install_data
+[3.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/isaiahm/ros2_ws/src/stereo_camera' returned '0': PYTHONPATH=/home/isaiahm/ros2_ws/src/build/stereo_camera/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/stereo_camera build --build-base /home/isaiahm/ros2_ws/src/build/stereo_camera/build install --record /home/isaiahm/ros2_ws/src/build/stereo_camera/install.log --install-scripts $base/lib/stereo_camera --single-version-externally-managed install_data
+[3.157s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/stereo_camera' for CMake module files
+[3.158s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/stereo_camera' for CMake config files
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/stereo_camera/lib'
+[3.160s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/stereo_camera/bin'
+[3.161s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/stereo_camera/lib/pkgconfig/stereo_camera.pc'
+[3.161s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/stereo_camera/lib/python3.10/site-packages'
+[3.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('stereo_camera', 'pythonpath')
+[3.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/hook/pythonpath.ps1'
+[3.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/hook/pythonpath.dsv'
+[3.164s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/hook/pythonpath.sh'
+[3.165s] Level 1:colcon.colcon_core.environment:checking '/home/isaiahm/ros2_ws/src/install/stereo_camera/bin'
+[3.166s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(stereo_camera)
+[3.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/package.ps1'
+[3.169s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/package.dsv'
+[3.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/package.sh'
+[3.173s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/package.bash'
+[3.175s] INFO:colcon.colcon_core.shell:Creating package script '/home/isaiahm/ros2_ws/src/install/stereo_camera/share/stereo_camera/package.zsh'
+[3.176s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/isaiahm/ros2_ws/src/install/stereo_camera/share/colcon-core/packages/stereo_camera)
+[3.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.178s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.178s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.179s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.180s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.181s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isaiahm/ros2_ws/src/install/local_setup.ps1'
+[3.183s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/isaiahm/ros2_ws/src/install/_local_setup_util_ps1.py'
+[3.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isaiahm/ros2_ws/src/install/setup.ps1'
+[3.190s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isaiahm/ros2_ws/src/install/local_setup.sh'
+[3.193s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/isaiahm/ros2_ws/src/install/_local_setup_util_sh.py'
+[3.195s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isaiahm/ros2_ws/src/install/setup.sh'
+[3.198s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isaiahm/ros2_ws/src/install/local_setup.bash'
+[3.199s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isaiahm/ros2_ws/src/install/setup.bash'
+[3.203s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/isaiahm/ros2_ws/src/install/local_setup.zsh'
+[3.204s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/isaiahm/ros2_ws/src/install/setup.zsh'

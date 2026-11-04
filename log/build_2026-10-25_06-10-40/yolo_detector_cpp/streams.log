@@ -1,0 +1,27 @@
+[0.025s] Invoking command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp -- -j6 -l6
+[0.113s] [35m[1mConsolidate compiler generated dependencies of target yolo_detector_node[0m
+[0.157s] [ 50%] [32mBuilding CXX object CMakeFiles/yolo_detector_node.dir/src/yolo_detector_node.cpp.o[0m
+[23.514s] [100%] [32m[1mLinking CXX executable yolo_detector_node[0m
+[23.987s] /usr/bin/ld: warning: libopencv_imgcodecs.so.4.5d, needed by /opt/ros/humble/lib/libcv_bridge.so, may conflict with libopencv_imgcodecs.so.408
+[25.057s] [100%] Built target yolo_detector_node
+[25.093s] Invoked command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp -- -j6 -l6
+[25.117s] Invoking command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --install /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp
+[25.132s] -- Install configuration: ""
+[25.133s] -- Execute custom install script
+[25.134s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/lib/yolo_detector_cpp/yolo_detector_node
+[25.153s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/package_run_dependencies/yolo_detector_cpp
+[25.172s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/parent_prefix_path/yolo_detector_cpp
+[25.191s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/ament_prefix_path.sh
+[25.209s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/ament_prefix_path.dsv
+[25.229s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/path.sh
+[25.246s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/environment/path.dsv
+[25.265s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.bash
+[25.282s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.sh
+[25.301s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.zsh
+[25.319s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/local_setup.dsv
+[25.337s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.dsv
+[25.355s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/ament_index/resource_index/packages/yolo_detector_cpp
+[25.373s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/cmake/yolo_detector_cppConfig.cmake
+[25.391s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/cmake/yolo_detector_cppConfig-version.cmake
+[25.409s] -- Symlinking: /home/isaiahm/ros2_ws/src/install/yolo_detector_cpp/share/yolo_detector_cpp/package.xml
+[25.432s] Invoked command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --install /home/isaiahm/ros2_ws/src/build/yolo_detector_cpp

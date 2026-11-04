@@ -1,0 +1,2 @@
+Invoking command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp': /usr/bin/cmake /home/isaiahm/ros2_ws/src/yolo_detector_cpp -DCMAKE_INSTALL_PREFIX=/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp
+Invoked command in '/home/isaiahm/ros2_ws/src/build/yolo_detector_cpp' returned '1': /usr/bin/cmake /home/isaiahm/ros2_ws/src/yolo_detector_cpp -DCMAKE_INSTALL_PREFIX=/home/isaiahm/ros2_ws/src/install/yolo_detector_cpp

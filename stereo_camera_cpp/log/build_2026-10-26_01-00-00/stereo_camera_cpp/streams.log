@@ -1,0 +1,10 @@
+[0.019s] Invoking command in '/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp': CMAKE_PREFIX_PATH=/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp -- -j6 -l6
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o[0m
+[0.593s] [01m[K/home/isaiahm/ros2_ws/src/stereo_camera_cpp/src/stereo_camera_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcv_bridge/cv_bridge.hpp: No such file or directory
+[0.593s]     4 | #include [01;31m[K<cv_bridge/cv_bridge.hpp>[m[K
+[0.594s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.594s] compilation terminated.
+[0.628s] gmake[2]: *** [CMakeFiles/stereo_camera_node.dir/build.make:76: CMakeFiles/stereo_camera_node.dir/src/stereo_camera_node.cpp.o] Error 1
+[0.628s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/stereo_camera_node.dir/all] Error 2
+[0.630s] gmake: *** [Makefile:146: all] Error 2
+[0.635s] Invoked command in '/home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp' returned '2': CMAKE_PREFIX_PATH=/home/isaiahm/ros2_ws/install/stereo_camera:/opt/ros/humble /usr/bin/cmake --build /home/isaiahm/ros2_ws/src/stereo_camera_cpp/build/stereo_camera_cpp -- -j6 -l6
